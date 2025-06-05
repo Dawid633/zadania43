@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 65 Ptaszyński</title>
+    <style>
+        body {
+            background-color: rgb(192, 192, 192);
+        }
+        .tabelka {
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        p {
+            font-size: 10pt;
+        }
+        p:first-child {
+            font-size: 9mm;
+            font-style: italic;
+        }
+
+        #pierwszy_ptaszynski {
+            width: 1128pt;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(5, 219, 255); /* jasno niebieski */
+            border-radius: 13mm; /* r1 = 13mm */
+            overflow: hidden;
+            border: 3px solid #000; /* czarne */
+        }
+
+        #drugi_ptaszynski {
+            width: 1080pt;
+            background-color: rgb(255, 182, 193); /* różowy */
+            border-radius: 16mm; /* r2 = 16mm */
+            overflow: hidden;
+            border: 5px solid rgb(7, 19, 153); /* granatowe */
+        }
+
+        #trzeci_ptaszynski {
+            width: 1188pt;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(50, 255, 0); /* jasno zielony */
+            border-radius: 19mm; /* r3 = 19mm */
+            overflow: hidden;
+            border: 7px solid rgb(148, 0, 211); /* fioletowe */
+        }
+    </style>
+</head>
+<body>
+    <div id="pierwszy_ptaszynski">
+        <p:first-child> &zwj; &zwj; &zwj; &zwj; &zwj; &zwj; &zwj; &zwj; Pierwszy akapit/pierwszy DIV--> ptaszynski nazwa ID akapitu id="pierwszy_ptaszynski"</p:first-child>
+        <p>Drugi akapit/pierwszy DIV<br>
+            pierwszy akapit --> p:first-child{font-size:9mm;font-styl:italic;}<br>
+            bo numer nieparzysty w dzienniku<br>
+            pozostałe akapity-->p{font-size:10pt;} bo numer nieparzysty<br>
+            szerokość bloku = 1128pt<br>
+            pierwszy DIV--> kolor jasno niebieski
+        </p>
+        <p>trzeci akapit/pierwszy DIV<br>
+            pierwszy DIV--> obramowanie czarne DIV <br>
+            pierwszy DIV--> obramowanie grubość 3px, ciągłe (solid) pierwszy DIV--> r1=13mm
+        </p>
+    </div>
+
+    <div id="drugi_ptaszynski">
+        <p:first-child> &zwj; &zwj; &zwj; &zwj; &zwj; &zwj; Pierwszy akapit/drugi DIV--> Dawid nazwa ID akapitu id="drugi_ptaszynski"</p:first-child>
+        pierwszy akapit --> p:first-child{font-size:9mm;font-styl:italic;}<br>
+        bo numer nieparzysty w dzienniku<br>
+        pozostałe akapity-->p{font-size:10pt;} bo numer nieparzysty<br>
+        szerokość bloku = 1080pt<br>
+        drugi DIV--> kolor różowy
+        </p>
+        <p>trzeci akapit/drugi DIV<br>
+            drugi DIV--> obramowanie granatowe DIV <br>
+            drugi DIV--> obramowanie grubość 5px, ciągłe (solid) drugi DIV--> r2=16mm
+        </p>
+    </div>
+
+    <div id="trzeci_ptaszynski">
+        <p:first-child>&zwj; &zwj; &zwj; &zwj; &zwj; &zwj; &zwj; &zwj; Pierwszy akapit/trzeci DIV--> 1P nazwa ID akapitu id="trzeci_ptaszynski"</p:first-child>
+        <p>Drugi akapit/trzeci DIV<br>
+            pierwszy akapit --> p:first-child{font-size:9mm;font-styl:italic;}<br>
+            bo numer nieparzysty w dzienniku<br>
+            pozostałe akapity-->p{font-size:10pt;} bo numer nieparzysty<br>
+            szerokość bloku = 1188pt<br>
+            trzeci DIV--> kolor jasno zielony
+        </p>
+        <p>trzeci akapit/trzeci DIV<br>
+            trzeci DIV--> obramowanie fioletowe DIV <br>
+            trzeci DIV--> obramowanie grubość 7px, ciągłe (solid) trzeci DIV--> r3=19mm
+        </p>
+    </div>
+</body>
+</html>

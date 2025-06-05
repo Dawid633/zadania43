@@ -1,0 +1,15 @@
+* {
+    font-size: 36pt; /* 30 + 6 (Dawid) */
+    color: red; /* Kolor liter czerwony dla numerów nieparzystych */
+    background-color: silver; /* Kolor tła srebrny dla numerów nieparzystych */
+}
+
+.klasa_nieuniwersalna_ptaszynski {
+    font-size: 34pt; /* 25 + 9 (Ptaszyński) */
+    color: green; /* Kolor liter zielony dla numerów nieparzystych */
+}
+
+.klasa_uniwersalna_ptaszynski {
+    font-size: 32pt; /* 20 + 12 (grudzień) */
+    color: black; /* Kolor liter czarny dla numerów nieparzystych */
+}

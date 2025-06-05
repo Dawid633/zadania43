@@ -1,0 +1,31 @@
+div {
+    width: 627px; /* 600px + numer 27 z dziennika */
+    font-size: 19mm;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#blok_ptaszynski_1 {
+    background-color: rgb(255, 165, 0); /* Pomarańczowy */
+}
+
+#blok_ptaszynski_1:hover {
+    background-color: rgb(255, 255, 0); /* Zmiana na Żółty */
+}
+
+#blok_ptaszynski_2 {
+    background-color: rgb(173, 255, 47); /* Jasno zielony */
+}
+
+#blok_ptaszynski_2:hover {
+    background-color: rgb(255, 215, 0); /* Zmiana na Złoty */
+}
+
+#blok_ptaszynski_3 {
+    background-color: rgb(255, 215, 0); /* Złoty */
+}
+
+#blok_ptaszynski_3:hover {
+    background-color: rgb(255, 165, 0); /* Zmiana na Pomarańczowy */
+}

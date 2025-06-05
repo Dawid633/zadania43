@@ -1,0 +1,24 @@
+body {
+    background: white;
+}
+
+.pierwszy:first-letter {
+    font-size: 122pt; 
+    color: green; 
+}
+
+.pierwszy {
+    font-size: 21pt; 
+    color: purple;
+}
+
+.drugi:first-letter {
+    font-size: 122pt; 
+    color: green; 
+}
+
+.drugi {
+    font-size: 18pt; 
+    color: purple; 
+}
+
